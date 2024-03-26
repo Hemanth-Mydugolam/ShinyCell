@@ -56,6 +56,7 @@ makeShinyApp(seu, scConf, gene.mapping = TRUE,
                                    "DPPA5","SLC7A2","GATA3","KRT19"))
 
 
+#######
 # scConf1 = delMeta(scConf1, c("orig.ident", "RNA_snn_res.0.5"))
 # scConf1 = modMetaName(scConf1, meta.to.mod = c("nUMI", "nGene", "pctMT", "pctHK"), 
 #                       new.name = c("No. UMIs", "No. detected genes",
